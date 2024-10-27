@@ -57,40 +57,35 @@ public class Main {
 //ArrayList<Integer> numbers = new ArrayList<>();
 //numbers.add(200);
 //numbers.add(30);
-//numbers.add(40);
+//numbers.add(400);
 //numbers.add(50);
-// int max = numbers.get(0);
 //
-//for (int n: numbers){
-//    if(n>max){
-//        max=n;
-//    }
-//}
-//        System.out.println("Larger value in the array = "+max);
+//if(numbers.get(0)>numbers.get(numbers.size()-1))
+//{
+//    System.out.println("Larger value between first and last number is : "+ numbers.get(0));
+//}else if(numbers.get(0)<numbers.get(numbers.size()-1)){
+//    System.out.println("Larger value between first and last number is : "+ numbers.get(numbers.size()-1));
+//}else System.out.println("Numbers are equals");
 
 //***********************************************************************************
         //Question 4 (Swap)
-
+//
 //        ArrayList<Integer> original = new ArrayList<>();
-//        ArrayList<Integer> swaping = new ArrayList<>();
 //
 //        original.add(20);
 //        original.add(30);
+//        original.add(70);
 //        original.add(40);
 //
 //        int first = original.get(0);
 //        int last = original.get(original.size()-1);
 //
-//        for (int i : original){
-//            swaping.add(i);
+//        original.set(0 , last);
+//        original.set(original.size()-1 , first);
 //
-//        }
 //
-//        swaping.set(0 , last);
-//        swaping.set(original.size()-1 , first);
+//        System.out.println("new array "+original);
 //
-//        System.out.println(original);
-//        System.out.println(swaping);
 
 // //***********************************************************************************
 //        //Question 5 (odd before even in array)
@@ -125,34 +120,34 @@ public class Main {
 
 //***********************************************************************************
         //Question 6 (Equality of two arrays)
-
-        ArrayList<Integer> arr1 = new ArrayList<>();
-        ArrayList<Integer> arr2 = new ArrayList<>();
-
-        arr1.add(1);
-        arr1.add(2);
-        arr1.add(3);
-        arr1.add(4);
-        arr1.add(5);
-
-        arr2.add(1);
-        arr2.add(2);
-        arr2.add(3);
-        arr2.add(4);
-        arr2.add(5);
-
-        int counter=0;
-        boolean result =true;
-
-        for (int i : arr1){
-            if(i!=arr2.get(counter)){
-                result=false;
-                break;
-            }
-            counter++;
-        }
-        System.out.println(result);
-
+//
+//        ArrayList<Integer> arr1 = new ArrayList<>();
+//        ArrayList<Integer> arr2 = new ArrayList<>();
+//
+//        arr1.add(1);
+//        arr1.add(2);
+//        arr1.add(3);
+//        arr1.add(4);
+//        arr1.add(5);
+//
+//        arr2.add(1);
+//        arr2.add(2);
+//        arr2.add(3);
+//        arr2.add(4);
+//        arr2.add(5);
+//
+//        int counter=0;
+//        boolean result =true;
+//
+//        for (int i : arr1){
+//            if(i!=arr2.get(counter)){
+//                result=false;
+//                break;
+//            }
+//            counter++;
+//        }
+//        System.out.println(result);
+//
 
 
 
